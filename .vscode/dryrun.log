@@ -1,0 +1,5 @@
+make.exe --dry-run --keep-going --print-directory
+make: Entering directory 'c:/Users/akshi/Akshiti garg'
+gcc -std=c11 -Wall -o CDHS  
+make: Leaving directory 'c:/Users/akshi/Akshiti garg'
+ 
