@@ -3,17 +3,13 @@
 
 int main()
 {
-    int a,n,x;
-    printf("Enter a choice\n1.Increase\n0. Exit\n");
-    scanf("%d",&a);
-    if(a==1)
-    {
+    int n;
+    
          printf("Enter a number\n");
          scanf("%d",&n);
-         printf("Enter a Number\n");
-        scanf("%d",&x);
+         
 
-        printf("%d\n",add(n,x));
-    }
+        printf("%d\n",oscSeries(n));
+    
     return 0;
 }
