@@ -1,4 +1,8 @@
-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe all -f /c/Users/akshi/Akshiti garg --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: /c/Users/akshi/Akshiti garg: No such file or directory
+
+make: *** No rule to make target '/c/Users/akshi/Akshiti garg'.  Stop.
+
 # GNU Make 4.3
 # Built for Windows32
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +10,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 22 19:19:46 2022
+# Make data base, printed on Wed Aug 24 09:48:26 2022
 
 # Variables
 
@@ -14,29 +18,16 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
-# makefile (from 'Makefile', line 18)
-OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
 # environment
 LC_ALL = C
 # environment
 VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
-# makefile (from 'Makefile', line 17)
-SRC = $(wildcard $(SRCDIR)/*$(EXT))
-# makefile (from 'Makefile', line 12)
-EXT = .c
-# makefile (from 'Makefile', line 26)
-WDELOBJ = $(SRC:$(SRCDIR)/%$(E 
-XT)=$(OBJDIR)\\%.o)
-# makefile (from 'Makefile', line 14)
-OBJDIR = obj
 # environment
 USERPROFILE = C:\Users\akshi
 # environment
 LOCALAPPDATA = C:\Users\akshi\AppData\Local
 # environment
 VSCODE_CWD = C:\Users\akshi\AppData\Local\Programs\Microsoft VS Code
-# makefile (from 'Makefile', line 22)
-DELOBJ = $(OBJ)
 # environment
 SYSTEMROOT = C:\windows
 # environment
@@ -48,7 +39,7 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_4860_LHPBXGUXKECVOLAT
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_33316_OAWXCSFGNJORGOTU
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -72,37 +63,33 @@ TMP = C:\Users\akshi\AppData\Local\Temp
 # default
 .INCLUDE_DIRS = .
 # makefile
-MAKEFLAGS = pqrR
+MAKEFLAGS = prR
 # environment
 ONEDRIVE = C:\Users\akshi\OneDrive
 # environment
 INTELLIJ IDEA COMMUNITY EDITION = C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;
-# makefile (from 'Makefile', line 19)
-DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
 # makefile
 CURDIR := c:/Users/akshi/Akshiti garg
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
 PROGRAMFILES = C:\Program Files
 # environment
-MFLAGS = -pqrR
+MFLAGS = -prR
 # default
 .SHELLFLAGS := -c
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
+# makefile
+MAKEFILE_LIST := 
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 4860
-# makefile (from 'Makefile', line 11)
-APPNAME = CDHS
+VSCODE_PID = 33316
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -169,22 +156,14 @@ GNUMAKEFLAGS :=
 OS = Windows_NT
 # environment
 AMDRMSDKPATH = C:\Program Files\AMD\RyzenMasterSDK\
-# makefile (from 'Makefile', line 25)
-EXE = .exe
 # makefile
-.DEFAULT_GOAL := all
-# makefile (from 'Makefile', line 21)
-RM = rm
+.DEFAULT_GOAL := 
 # default
 MAKE_VERSION := 4.3
 # environment
 PLATFORMCODE = KV
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
-# makefile (from 'Makefile', line 8)
-LDFLAGS = 
-# makefile (from 'Makefile', line 24)
-DEL = del
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-NIBMK1B1
 # environment
@@ -207,8 +186,6 @@ ELECTRON_RUN_AS_NODE = 1
 TEMP = C:\Users\akshi\AppData\Local\Temp
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\95f86356ac0667e386d3f3a75cf879bc-1.70.2-main-sock
-# makefile (from 'Makefile', line 13)
-SRCDIR = \Users\akshi\Akshiti garg
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -219,20 +196,16 @@ SUFFIXES :=
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
-# makefile (from 'Makefile', line 7)
-CXXFLAGS = -std=c11 -Wall
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 REGIONCODE = APJ
 # environment
 PROCESSOR_REVISION = 5000
-# makefile (from 'Makefile', line 6)
-CC = gcc
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=110/1024=11%, Rehash=0, Collisions=18/166=11%
+# Load=95/1024=9%, Rehash=0, Collisions=10/116=9%
 
 # Pattern-specific Variable Values
 
@@ -240,54 +213,20 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD
 
 # Directories
 
-# garg: could not be stat'd.
-# . (key c:/Users/akshi/Akshiti garg, mtime 1661175822): 14 files, no impossibilities.
 
-# 14 files, no impossibilities in 2 directories.
+# No files, no impossibilities in 0 directories.
 
 # Implicit Rules
 
-%.d: \Users\akshi\Akshiti garg/%.c
-#  recipe to execute (from 'Makefile', line 40):
-	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+# No implicit rules.
 
-obj/%.o: \Users\akshi\Akshiti garg/%.c
-#  recipe to execute (from 'Makefile', line 47):
-	$(CC) $(CXXFLAGS) -o $@ -c $<
-
-# 2 implicit rules, 0 (0.0%) terminal.
 # Files
 
-cleandepw:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 69):
-	$(DEL) $(DEP)
-
-cleandep:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 58):
-	$(RM) $(DEP)
-
 # Not a target:
-Makefile:
+/c/Users/akshi/Akshiti garg:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-22 19:19:29
-#  File has been updated.
-#  Successfully updated.
-
-clean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 53):
-	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
 
 # Not a target:
 .DEFAULT:
@@ -295,75 +234,27 @@ clean:
 #  Modification time never checked.
 #  File has not been updated.
 
-all: CDHS
-#  Command line target.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
-
-CDHS:
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := CDHS
-# automatic
-# * := 
-# automatic
-# < := 
-# automatic
-# + := 
-# automatic
-# % := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# automatic
-# | := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=2/16=12%
-#  recipe to execute (from 'Makefile', line 36):
-	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
-
-cleanw:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 64):
-	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
-
 # Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-.PHONY: clean cleandep cleanw cleandepw
+all:
+#  Command line target.
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=10/1024=1%, Rehash=0, Collisions=0/35=0%
+# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 209 B / avg = 7 B
-# current buf: size = 8162 B / used = 209 B / count = 28 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 5 / storage = 53 B / avg = 10 B
+# current buf: size = 8162 B / used = 53 B / count = 5 / avg = 10 B
 
-# strcache performance: lookups = 54 / hit rate = 48%
+# strcache performance: lookups = 7 / hit rate = 28%
 # hash-table stats:
-# Load=28/8192=0%, Rehash=0, Collisions=0/54=0%
-# Finished Make data base on Mon Aug 22 19:19:46 2022
+# Load=5/8192=0%, Rehash=0, Collisions=0/7=0%
+# Finished Make data base on Wed Aug 24 09:48:26 2022
 
  

@@ -1,5 +1,11 @@
-make.exe --dry-run --keep-going --print-directory
+make.exe -f /c/Users/akshi/Akshiti garg --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Users/akshi/Akshiti garg'
-gcc -std=c11 -Wall -o CDHS  
+ 
+make: /c/Users/akshi/Akshiti garg: No such file or directory
+
 make: Leaving directory 'c:/Users/akshi/Akshiti garg'
  
+make: *** No rule to make target '/c/Users/akshi/Akshiti garg'.
+make: Failed to remake makefile '/c/Users/akshi/Akshiti garg'.
+make: *** No targets specified and no makefile found.  Stop.
+

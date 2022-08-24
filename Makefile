@@ -8,10 +8,10 @@ CXXFLAGS = -std=c11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = CDHS
+APPNAME = myapp
 EXT = .c
-SRCDIR = \Users\akshi\Akshiti garg
-OBJDIR = obj
+SRCDIR = /c/Users/akshi/Akshiti garg
+OBJDIR = .
 
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
